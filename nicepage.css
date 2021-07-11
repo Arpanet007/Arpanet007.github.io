@@ -33505,6 +33505,10 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         .u-body
         {
+        background-image: url("images/471786_professional-background-images-for-websites-all-wallpapers-new_1920x1237_h.jpg");
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
         background-attachment: fixed;
         }
         /** common-rules **/
@@ -33667,15 +33671,15 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
 .u-header {
-  background-image: linear-gradient(#77aad9, #72efe9);
+  background-image: linear-gradient(#adf6f2, #2cccc4);
 }
 
 .u-header .u-sheet-1 {
-  min-height: 70px;
+  min-height: 80px;
 }
 
 .u-header .u-image-1 {
-  margin: 20px auto 0 0;
+  margin: 22px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -33684,35 +33688,33 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  font-family: size-14;
-  margin: -32px 0 20px auto;
+  margin: -32px 0 22px auto;
 }
 
 .u-header .u-nav-1 {
   font-size: 1rem;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .u-header .u-nav-2 {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    width: 53px;
-    height: 64px;
-  }
-}
-@media (max-width: 991px) {
-  .u-header .u-image-1 {
-    width: 40px;
-  }
-}
-@media (max-width: 767px) {
-  .u-header .u-sheet-1 {
-    min-height: auto;
+    width: 64px;
+    height: 32px;
   }
 
+  .u-header .u-menu-1 {
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
   .u-header .u-image-1 {
-    width: 38px;
+    width: auto;
   }
 }
 
@@ -33723,8 +33725,8 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-social-icons-1 {
   height: 32px;
   min-height: 16px;
-  width: 200px;
-  min-width: 120px;
+  width: 242px;
+  min-width: 146px;
   white-space: nowrap;
   margin: 44px auto;
 }
@@ -33753,9 +33755,19 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
   color: rgb(0, 137, 203) !important;
 }
+
+.u-footer .u-icon-6 {
+  height: 100%;
+  color: rgb(219, 83, 75) !important;
+}
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
     min-height: 99px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    width: 158px;
+    min-width: 94px;
   }
 }
 @media (max-width: 991px) {
